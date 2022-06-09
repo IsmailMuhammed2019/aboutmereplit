@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Ismail Muhammed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo"><h3>ISMYIL</h3></div>
+        <div class="nav">
+          <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+          </ul>
+        </div>
+      </header>
+      <main class="content">
+        <section class="intro">
+          <div class="pic" title="Ismail Muhammed"></div>
+          <div class="greetings">
+            <p>Hi There,</p>
+            <p>
+              I'm <span class="name">Ismail Muhammed,</span> <br />
+              A FullStack Developer bassed in Lagos, Nigeria.
+            </p>
+            <div class="delivered">
+              <div class="points">
+                <p>6+</p>
+                <p>89</p>
+                <p class="last">52</p>
+              </div>
+              <div class="pointsDetails">
+                <p class="small">Experience</p>
+                <p class>Projects</p>
+                <p class="last1">Happy Clients</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="about formdetails">
+          <h3>
+            Please if you find my content interesting, you can register to get
+            email updates and other discounted promos. Fill the form below to
+            register.
+          </h3>
+          <form>
+            <div class="formgroup">
+              <label for="firstName">First Name: </label>
+              <input
+                id="firstName"
+                placeholder="Please enter your first name here"
+                required
+              />
+            </div>
+            <div class="formgroup">
+              <label for="lastName">Last Name: </label>
+              <input
+                id="lastName"
+                placeholder="Please enter your last name here"
+                required
+              />
+            </div>
+            <div class="formgroup">
+              <label for="phoneNumber">Phone Number: </label>
+              <input
+                id="phoneNumber"
+                placeholder="Please enter your phone number here"
+                required
+              />
+            </div>
+            <div class="formgroup">
+              <label for="gender">Gender: </label><br />
+              <select required>
+                <option value="default">Select your Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>
+            <div class="formgroup">
+              <label for="country">Country: </label>
+              <input
+                required
+                id="country"
+                placeholder="Please enter your country here"
+              />
+            </div>
+            <div class="formgroup">
+              <label for="country">State/Province: </label>
+              <input
+                required
+                id="state"
+                placeholder="Please enter your state here"
+              />
+            </div>
+            <div class="formgroup">
+              <label for="email">Email: </label>
+              <input
+                required
+                id="name"
+                placeholder="Please enter your email here"
+              />
+            </div>
+            <div class="formgroup">
+              <label for="password">Password: </label>
+              <input
+                required
+                id="password"
+                placeholder="Please enter your password here"
+              />
+            </div>
+            <div class="formgroup">
+              <label for="confirmpassword">Confirm Password: </label>
+              <input
+                required
+                id="confirmpassword"
+                placeholder="Please confirm your password"
+              />
+            </div>
+            <button class="submit">Register</button>
+          </form>
+        </section>
+      </main>
+      <footer>
+        <div class="copyrite">&copy 2022</div>
+        <div class="closing">
+          Designed by Ismail Muhammed
+          <button class="btn">View Source Code here</button>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
